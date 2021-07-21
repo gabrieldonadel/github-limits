@@ -6,6 +6,22 @@ Hi, the purpose of this experiment is to better understand Github pull requests 
 
 1. Fork this repo&nbsp;<a href="https://github.com/gabrieldonadel/pull-requests-limits/fork" aria-label="Fork gabrieldonadel/pull-requests-limits on GitHub"><img src="https://img.shields.io/github/forks/gabrieldonadel/pull-requests-limits?style=social" /></a>
 2. Install and configure `hub` (more details [here](https://hub.github.com/))
+
+   2.1 run `brew install hub`
+
+   2.2 run `git config --global hub.protocol https`
+
+   2.3 run `touch ~/.config/hub && open ~/.config/hub`
+
+   2.4 paste
+
+   ```
+   github.com:
+   - user: <github-username>
+   oauth_token: <oauth-token>
+   protocol: https
+   ```
+
 3. Run `script.sh` (just keep it running in a terminal window)
 4. You're done! 🎉
 

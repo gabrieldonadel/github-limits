@@ -1,10 +1,10 @@
-# pull-requests-limits
+# github-limits
 
 Hi, the purpose of this experiment is to better understand Github pull requests limits, upon some research on the internet I was not able to find any information on this regard, not even to git itself, the idea here is to open as many PR's as we can until something crashes, either git or GitHub UI. From my estimates, it is possible to open about 700 pull requests every hour.
 
 ## How to contribute?
 
-1. Fork this repo&nbsp;<a href="https://github.com/gabrieldonadel/pull-requests-limits/fork" aria-label="Fork gabrieldonadel/pull-requests-limits on GitHub"><img src="https://img.shields.io/github/forks/gabrieldonadel/pull-requests-limits?style=social" /></a>
+1. Fork this repo&nbsp;<a href="https://github.com/gabrieldonadel/github-limits/fork" aria-label="Fork gabrieldonadel/github-limits on GitHub"><img src="https://img.shields.io/github/forks/gabrieldonadel/github-limits?style=social" /></a>
 2. Install and configure `hub` (more details [here](https://hub.github.com/))
 
    2.1 run `brew install hub`
